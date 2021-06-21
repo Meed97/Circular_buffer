@@ -10,8 +10,8 @@
 
 void uart_Thread1 (void const *argument);
 void uart_Thread2 (void const *argument);
-osThreadDef(uart_Thread1, osPriorityNormal, 4, 0);
-osThreadDef(uart_Thread2, osPriorityNormal, 4, 0);
+osThreadDef(uart_Thread1, osPriorityNormal, 5, 0);
+osThreadDef(uart_Thread2, osPriorityNormal, 5, 0);
 
 osThreadId T_uart1;
 osThreadId T_uart2;
